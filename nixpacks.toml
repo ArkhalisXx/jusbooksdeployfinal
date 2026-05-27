@@ -1,0 +1,4 @@
+# Railway build config
+# Ensures Node 20 LTS is used and native modules compile correctly
+[phases.setup]
+nixPkgs = ["nodejs_20", "python3", "gcc", "gnumake"]
